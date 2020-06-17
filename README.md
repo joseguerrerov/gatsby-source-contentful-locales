@@ -1,1 +1,2 @@
-gatsby-source-contentful-locales
+# gatsby-source-contentful-locales
+
