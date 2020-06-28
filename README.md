@@ -1,4 +1,8 @@
 # gatsby-source-contentful-locales
+![Release](https://github.com/joseguerrerov/gatsby-source-contentful-locales/workflows/Release/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 Source plugin for pulling locales from contentful spaces.
 It creates a list with all the locales available and exposes information like default locale and fallback locale.
