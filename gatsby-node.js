@@ -1,4 +1,6 @@
+const fetch = require('node-fetch');
 const { name } = require('./package.json');
+
 
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest, reporter }, options) => {
   if (!options.spaceId) return reporter.error(`🚨  ${name}:spaceId is a required option `);
