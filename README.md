@@ -60,3 +60,33 @@ Contentful delivery api key
     }
   }
 ```
+### Response Example
+```json
+{
+  "data": {
+    "allContentfulLocale": {
+      "totalCount": 2,
+      "edges": [
+        {
+          "node": {
+            "id": "a649bd83-324f-55de-9a70-1d94d96880f3",
+            "code": "en-US",
+            "name": "English (United States)",
+            "default": true,
+            "fallbackCode": null
+          }
+        },
+        {
+          "node": {
+            "id": "74a15964-622b-5992-af9b-fea2e2d8fd69",
+            "code": "es",
+            "name": "Spanish",
+            "default": false,
+            "fallbackCode": "en-US"
+          }
+        }
+      ]
+    }
+  }
+}
+```
